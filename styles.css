@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    list-style: none;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 20px 250px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.right {
+    color: white;
+    display: flex;
+    gap: 20px;
+    opacity: .5;
+}
+
+.hero-section .left h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-section .left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    opacity: .5;
+}
