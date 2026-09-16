@@ -99,8 +99,10 @@ header {
 
 .quote-section .quote-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 550px;
 }
 
 .quote-section .quote-container .quote {
@@ -108,18 +110,12 @@ header {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    width: 800px;
-}
-
-.quote-section .author-container {
-    width: 1355px;
-    display: flex;
-    justify-content: end;
+    width: 100%;
 }
 
 .quote-section .author {
     font-weight: 900;
-
+    margin-left: auto;
 }
 
 .cta {
