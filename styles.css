@@ -29,6 +29,18 @@ header {
     opacity: .5;
 }
 
+.hero-section {
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section .left {
+    
+    width: 50%;
+}
+
 .hero-section .left h1 {
     font-size: 48px;
     color: #F9FAF8;
@@ -39,4 +51,39 @@ header {
     font-size: 18px;
     color: #E5E7EB;
     opacity: .5;
+}
+
+.hero-section .left button {
+    background-color: #3882F6;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.information {
+    padding: 50px 350px;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+.information .cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cards .card .square {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.cards .card p {
+    text-align: center;
 }
