@@ -110,3 +110,40 @@ header {
     font-style: italic;
     width: 800px;
 }
+
+.cta {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+
+.cta .container {
+    background-color: #3882F6;
+    width: 1405px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    border-radius: 5px;
+}
+
+.cta .container .text {
+    color: white;
+}
+
+.cta .container .cta-button button {
+    padding: 5px 20px;
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+footer p {
+    text-align: center;
+    padding: 25px;
+    background-color: #1F2937;
+    color: white;
+}
